@@ -1,3 +1,3 @@
 # ListView-Demo
 
-Basic List view example
+Basic List view example in android
