@@ -20,15 +20,14 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.listView);
         final ArrayList<String> myFriends = new ArrayList<String>();
 
-        myFriends.add("Avishek");
-        myFriends.add("Sameer");
-        myFriends.add("Saiyyam");
-        myFriends.add("Aayush");
-        myFriends.add("Kabra");
-        myFriends.add("Samrath");
-        myFriends.add("Rishabh");
-        myFriends.add("Raushan");
-        myFriends.add("Samrath");
+        myFriends.add("Avishek Singh");
+        myFriends.add("Sameer Raj");
+        myFriends.add("Saiyyam Mittal");
+        myFriends.add("Aayush Shah");
+        myFriends.add("Jay Kabra");
+        myFriends.add("Samrath Singh");
+        myFriends.add("Rishabh Bharti");
+        myFriends.add("Raushan Kumar");
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, myFriends);
 
